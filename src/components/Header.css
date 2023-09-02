@@ -1,0 +1,25 @@
+/* remove default styles */
+button {
+    font-size: 100%;
+    font-family: 'Lobster Two', Georgia, 'Times New Roman', Times, serif;
+    border: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 3.5em;
+}
+
+/* button custom styles */
+button:hover,
+button:focus {
+    color: rgb(94, 91, 105);
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
