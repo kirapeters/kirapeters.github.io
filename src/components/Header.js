@@ -1,4 +1,4 @@
-import './Header.css';
+import './Header.module.css';
 
 // todo: add an active class to the tab that is active
 function Header() {

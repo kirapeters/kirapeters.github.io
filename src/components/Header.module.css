@@ -1,6 +1,9 @@
 header {
     overflow: hidden;
     padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 header a {
@@ -20,9 +23,11 @@ a:hover {
     float: left;
 }
 
+/* the nav links are overflowing to the right for some reason */
 .nav-links {
     margin-top: 10px;
     float: right;
+    margin-right: 20px;
 }
 
 /* remove default styles */
@@ -60,6 +65,7 @@ button:active {
     
     .nav-links {
       float: none;
+      margin-right: 0px;
     }
     
     header {

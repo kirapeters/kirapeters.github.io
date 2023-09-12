@@ -1,4 +1,4 @@
-import './Portrait.css';
+import './Portrait.module.css';
 
 function Portrait({src, alt}) {
     return (
