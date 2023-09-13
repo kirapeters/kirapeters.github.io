@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1192bf47.css",
+    "main.js": "/static/js/main.b2179a1c.js",
+    "static/js/787.e403dcb9.chunk.js": "/static/js/787.e403dcb9.chunk.js",
+    "static/media/kira-portrait.png": "/static/media/kira-portrait.6145aa81892c38812f9d.png",
+    "index.html": "/index.html",
+    "main.1192bf47.css.map": "/static/css/main.1192bf47.css.map",
+    "main.b2179a1c.js.map": "/static/js/main.b2179a1c.js.map",
+    "787.e403dcb9.chunk.js.map": "/static/js/787.e403dcb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1192bf47.css",
+    "static/js/main.b2179a1c.js"
+  ]
+}
