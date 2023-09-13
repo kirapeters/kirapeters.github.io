@@ -1,4 +1,37 @@
+/* Global Styles! */
 * {
   background-color: #000;
   color: #fff;
+}
+
+/*** HOVERING *** styling (that can't be fit into module css) */
+nav > a:hover {
+  text-decoration: none;
+  color: rgb(94, 91, 105);
+}
+
+/* LOGO styling */
+/* remove default styles from default button */
+.logo {
+  font-size: 100%;
+  font-family: 'Lobster Two', Georgia, 'Times New Roman', Times, serif;
+  border: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 3.5em;
+}
+
+.logo:hover,
+.logo:focus {
+  color: rgb(94, 91, 105);
+  cursor: pointer;
+}
+
+.logo:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.logo:active {
+  transform: scale(0.99);
 }

@@ -1,9 +1,9 @@
-header {
+.header {
     overflow: hidden;
     padding: 20px 10px;
 }
 
-header a {
+.nav-link {
     float: left;
     padding: 10px;
     text-decoration: none;
@@ -11,58 +11,28 @@ header a {
     text-align: center;
 }
 
-a:hover {
-    text-decoration: none;
-    color: rgb(94, 91, 105);
-}
-
 .home-button {
     float: left;
 }
 
-.nav-links {
+.navbar {
     margin-top: 10px;
     float: right;
 }
 
-/* remove default styles */
-button {
-    font-size: 100%;
-    font-family: 'Lobster Two', Georgia, 'Times New Roman', Times, serif;
-    border: 0;
-    padding: 0;
-    color: #fff;
-    font-size: 3.5em;
-}
-
-/* button custom styles */
-button:hover,
-button:focus {
-    color: rgb(94, 91, 105);
-    cursor: pointer;
-}
-
-button:focus {
-    outline: 1px solid #fff;
-    outline-offset: -4px;
-}
-
-button:active {
-    transform: scale(0.99);
-}
-
+/* classes assigned to media queries will work with modules here */
 @media screen and (max-width: 500px) {
-    .header a {
+    .nav-link {
       float: none;
       display: block;
       text-align: left;
     }
     
-    .nav-links {
+    .navbar {
       float: none;
     }
     
-    header {
+    .header {
         display: flex;
         flex-direction: column;
         align-items: center;
