@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.707e633e.css",
-    "main.js": "/static/js/main.ac4c0116.js",
+    "main.js": "/static/js/main.8bfbd8ff.js",
     "static/js/787.e403dcb9.chunk.js": "/static/js/787.e403dcb9.chunk.js",
     "static/media/kira-portrait.png": "/static/media/kira-portrait.6145aa81892c38812f9d.png",
     "index.html": "/index.html",
     "main.707e633e.css.map": "/static/css/main.707e633e.css.map",
-    "main.ac4c0116.js.map": "/static/js/main.ac4c0116.js.map",
+    "main.8bfbd8ff.js.map": "/static/js/main.8bfbd8ff.js.map",
     "787.e403dcb9.chunk.js.map": "/static/js/787.e403dcb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.707e633e.css",
-    "static/js/main.ac4c0116.js"
+    "static/js/main.8bfbd8ff.js"
   ]
 }

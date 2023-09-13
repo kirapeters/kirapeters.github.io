@@ -22,7 +22,6 @@
 .navbar {
     margin-top: 10px;
     float: right;
-    /* margin-right: 20px; */
 }
 
 /* classes assigned to media queries will work with modules here */
@@ -35,7 +34,6 @@
     
     .navbar {
       float: none;
-      /* margin-right: 0px; */
     }
     
     .header {
