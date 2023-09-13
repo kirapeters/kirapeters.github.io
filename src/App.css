@@ -2,6 +2,36 @@
 * {
   background-color: #000;
   color: #fff;
+  box-sizing: border-box;
+}
+
+/* Center Stuff */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 70%;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.portraitWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+a:hover {
+  color: rgb(94, 91, 105);
+  cursor: pointer;
 }
 
 /*** HOVERING *** styling (that can't be fit into module css) */
@@ -34,4 +64,14 @@ nav > a:hover {
 
 .logo:active {
   transform: scale(0.99);
+}
+
+@media screen and (max-width: 500px) {
+  .portraitWrapper {
+    margin-top: 50px;
+  }
+
+  main {
+    width: 100%;
+  }
 }

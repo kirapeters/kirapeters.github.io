@@ -5,4 +5,5 @@
     border: solid 5px rgb(121, 119, 134);
     border-radius: 50%;
     overflow: hidden;
+    box-sizing: content-box;
 }
