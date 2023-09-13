@@ -3,7 +3,7 @@
     padding: 20px 10px;
 }
 
-.nav-link {
+.navLink {
     float: left;
     padding: 10px;
     text-decoration: none;
@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.home-button {
+.homeButton {
     float: left;
 }
 
@@ -22,7 +22,7 @@
 
 /* classes assigned to media queries will work with modules here */
 @media screen and (max-width: 500px) {
-    .nav-link {
+    .navLink {
       float: none;
       display: block;
       text-align: left;

@@ -1,8 +1,8 @@
-import './Portrait.css';
+import styles from './Portrait.module.css';
 
 function Portrait({src, alt}) {
     return (
-      <div className="container">
+      <div className={styles.container}>
         <img src={src} alt={alt} />
       </div>
     );
