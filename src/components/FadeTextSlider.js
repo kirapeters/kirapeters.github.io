@@ -1,7 +1,7 @@
 import styles from "./FadeTextSlider.module.css";
 import React, { useState, useEffect } from "react";
 
-const INTERVAL_TIME = 5000;
+const INTERVAL_TIME = 4000;
 const FADE_TIME = 1500;
 
 function FadeTextSlider({ slides }) {
@@ -53,6 +53,7 @@ function FadeTextSlider({ slides }) {
             className={
               isFadingIn ? styles.fadingIn : isFadingOut ? styles.fadingOut : ""
             }
+            key={index}
           >
             <p
               className={

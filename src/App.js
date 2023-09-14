@@ -2,6 +2,7 @@ import "./App.css";
 import kiraPortrait from "./assets/kira-portrait.png";
 import Portrait from "./components/Portrait";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import FadeTextSlider from "./components/FadeTextSlider";
 
 function App() {
@@ -10,10 +11,10 @@ function App() {
       <Header />
       <main>
         <div className="portraitWrapper">
-          <Portrait src={kiraPortrait} alt="Kira Peters face" />
+          <Portrait src={kiraPortrait} alt="Kira Peter's face" />
           <FadeTextSlider
             slides={[
-              { text: "Hi!" },
+              { text: "Hi there!" },
               { text: "My name is Kira" },
               { text: "Scroll down to learn a little about me!" },
             ]}
@@ -187,6 +188,7 @@ function App() {
           everywhere, but not in my bed.
         </p>
       </main>
+      <Footer />
     </div>
   );
 }
