@@ -14,7 +14,7 @@ function Header() {
         <button className="logo" onClick={navigateHandler}>Kira Peters</button>
       </div>
       <nav className={styles.navbar}>
-        <a className={styles.navLink} href="www.linkedin.com/in/kira-peters01">LinkedIn</a>
+        <a className={styles.navLink} href="https://www.linkedin.com/in/kira-peters01">LinkedIn</a>
         <a className={styles.navLink} href="https://github.com/kirapeters">Github</a>
       </nav>
     </header>
