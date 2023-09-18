@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.76276574.css",
-    "main.js": "/static/js/main.caf7360c.js",
+    "main.js": "/static/js/main.c61a7680.js",
     "static/js/787.e403dcb9.chunk.js": "/static/js/787.e403dcb9.chunk.js",
     "static/media/kira-portrait.png": "/static/media/kira-portrait.6145aa81892c38812f9d.png",
+    "static/media/2023_09_18_first_post.md": "/static/media/2023_09_18_first_post.2283aaf54e146a2b85ab.md",
     "index.html": "/index.html",
     "main.76276574.css.map": "/static/css/main.76276574.css.map",
-    "main.caf7360c.js.map": "/static/js/main.caf7360c.js.map",
+    "main.c61a7680.js.map": "/static/js/main.c61a7680.js.map",
     "787.e403dcb9.chunk.js.map": "/static/js/787.e403dcb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76276574.css",
-    "static/js/main.caf7360c.js"
+    "static/js/main.c61a7680.js"
   ]
 }
