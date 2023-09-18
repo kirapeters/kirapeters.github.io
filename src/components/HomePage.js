@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import Header from "./Header";
 import Footer from "./Footer";
 import Portrait from "./Portrait";
@@ -31,6 +32,8 @@ function HomePage() {
             When I'm not coding, you can find me practicing the piano or
             painting for fun!
           </p>
+
+          <p>If you want to learn more about what I am learning and doing, check out my <Link to="blog">✨Blog✨</Link>!</p>
 
           <h1>
             Enjoy some <a href="http://www.catipsum.com/index.php">catipsum</a>
