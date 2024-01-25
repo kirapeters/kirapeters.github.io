@@ -29,6 +29,11 @@ main {
   width: 100%;
 }
 
+/*** Images ***/
+img {
+  width: 100%;
+}
+
 /*** HOVERING *** styling (that can't be fit into module css) */
 a:hover {
   color: rgb(94, 91, 105);

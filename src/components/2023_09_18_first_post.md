@@ -1,3 +1,12 @@
+# Post #2
+![Comic Con](../assets/comic-con.jpg)
+## Monday, September 25, 2023
+Woohoo my second blog post!! 
+
+This week I went to comic con in Salt Lake and it was so fun!!!! Everyone's costumes were so good and I loved seeing all the artwork and trinkets from various fandoms. I went with some of my cousins and we all dressed up as characters from Star Wars! I dressed up as Princess Leia. As we were wandering around the vicinity, we ran into a storm trooper, so of course I had to take a picture with him.
+
+---
+
 # My First Blog Post
 ## Monday, September 18, 2023
 Took me a bit to find the right code to allow me to upload these MD files I am using to create my blog posts.

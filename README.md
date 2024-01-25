@@ -1,3 +1,7 @@
+# Developing for this website
+## Building
+When you are happy with your changes, run `npm build` then copy everything in the build folder into the root folder
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
